@@ -1,0 +1,139 @@
+.about-page {
+  /* font-family: "Poppins", sans-serif; */
+  color: #333;
+  background-color: #fafafa;
+  line-height: 1.7;
+}
+.container {
+  background-color: #FFF1CA ;
+}
+.about-header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fec345 0%, #ff856b 100%);
+  color: white;
+}
+
+.about-header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.about-header span {
+  color: #fffbe7;
+}
+
+.about-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  color: #fec345;
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.about-section ul {
+  list-style: none;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.about-section li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-left: 4px solid #fec345;
+  border-radius: 8px;
+  color: #444;
+  transition: 0.3s;
+}
+
+.about-section li:hover {
+  background-color: #fff3f0;
+  transform: translateX(5px);
+}
+
+.about-team {
+  background: #FFF1CA;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.about-team h2 {
+  color: #fec345;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-card {
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 300px;
+  transition: 0.3s;
+  background-color: white;
+  box-shadow: #333;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-card p {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  color: #333;
+  font-weight: 600;
+}
+
+.team-card span {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.team-desc {
+  margin-top: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,142 @@
+        .footer{
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 80px;
+            /* background-color: #9d9d98e3;
+             */
+             background-color: white;
+            
+            
+        }
+
+        .footerheading{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            
+        }
+        .footerlogo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        
+        .logoicon{
+            display: flex;
+        }
+        .logoicon h1{
+            margin-left: 3px;
+        }
+
+        .appicons{
+            margin-bottom: 20px;
+            display: flex;
+        }
+
+        .appicons img{
+            width: 150px;
+            height: 40px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .appicons img:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .flinks{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .linklist{
+            
+            margin-right: 110px;
+        }
+
+
+        .linklist a{
+            color: black;
+            text-decoration: none;
+            line-height: 200%;
+        }
+        .linklist a:hover{
+            text-decoration: underline 1px solid black;
+        }
+        #translate{
+            display: flex;
+        }
+        #translate p{
+            margin-top: 0;
+        }
+        .linklist img{
+            width: 13px;
+            height: 13px;
+            margin: 10px 5px 0 0;
+        }
+
+
+        .footer1{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            margin-top: 70px;
+        }
+        .footerLinks{
+            display: flex;
+            margin-top: 30px;
+            /* margin-bottom:0; */
+        }
+        .footerLinks a{
+            margin-left: 35px;
+        }
+
+        .footer2{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 20px;
+            /* margin-bottom: 75px; */
+            
+        }
+        .footer2 p{
+            margin-left: 35px;
+            margin-top: 0;
+            
+        }
+
+        .footer1 a, .footer2 a{
+
+            text-decoration: none;
+            color: black;
+
+        }
+        .footer1 a:hover, .footer2 a:hover{
+            text-decoration: underline 1px solid black;
+        }
+
+        .icons{
+            margin: 5px 15px;
+        }
+        .icons a{
+            font-size: 20px;
+            color: black;
+            margin-right: 20px;
+        }
+        .icons a i:hover{
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .footerLinks p, .footer2 p{
+            font-size: 13px;
+        }
+
+        .map{
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgb(120, 104, 104) 
+        }
